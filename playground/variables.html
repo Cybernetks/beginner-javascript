@@ -9,7 +9,32 @@
 </head>
 
 <body>
+  <script>
+    'use strict'; // Sets strict mode on, not allowing creation of variables without var, let or const. Also default on for javascript modules
 
+    // function scoped variables
+    var first = 'Kenneth';
+
+    // block scoped variabled - ES6 introduced
+    let age = 37;
+    const cool = true; // Can't be changes
+
+    var dog; // undefined at this point
+    dog = 'snickers';
+
+    // Wes Bos opinion on usage
+    // const is default
+    // if changes are needed to the var it will be changed to a let
+    // var is almost never used
+
+    // Conventions
+    // - variables should not have a capital at the start - only classes
+    // - should start with letters (a-z), underscore or $
+    // - for a var out of 2 or more words use camelCase or snake_case
+    // - a class out of 2 or more words can use UpperCamelCase
+
+
+  </script>
 </body>
 
 </html>
